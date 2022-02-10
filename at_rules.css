@@ -1,0 +1,30 @@
+/*
+    At- Rules
+
+        * Está relacionado ao comportamento do CSS
+        * Começa com o sinal de '@' seguido do identificador e valor 
+
+    Exemplos - Comuns
+
+        - @import incluir um CSS externo 
+        - @media  regras condicionais para dispositivos
+        - @font-face fontes externas 
+        - @keyframes Animation 
+
+
+@import url("");
+
+@media (win-widht: 500px){
+
+}
+
+@font-face{
+
+}
+
+@keyframes nameofanimation{
+    
+}
+
+
+*/
