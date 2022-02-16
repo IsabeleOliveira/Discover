@@ -1,2 +1,2 @@
 # Discover
-HTML e CSS
+Estudos sobre HTML e CSS
