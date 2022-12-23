@@ -164,5 +164,5 @@ E o outline?
     - O outline é muito semelhante ao border, mas difere em 4 sentidos:
         -> Não modifica o tamanho da caixa, pois não é parte do Box Model
         -> Poderá ser diferente de retangular
-        -> Não permite ajuste individuais
+        -> Não permite ajustes individuais
         -> Mais usado pelo user agent para acessibilidade

@@ -1,10 +1,9 @@
-/*
-    At- Rules
+/* # At- Rules
 
         * Está relacionado ao comportamento do CSS
         * Começa com o sinal de '@' seguido do identificador e valor 
 
-    Exemplos - Comuns
+Exemplos - Comuns
 
         - @import incluir um CSS externo 
         - @media  regras condicionais para dispositivos
@@ -24,7 +23,6 @@
 
 @keyframes nameofanimation{
     
-}
-
+} 
 
 */
