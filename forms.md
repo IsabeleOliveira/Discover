@@ -144,4 +144,141 @@
     - pattern
         -> uso de expressão regular para validar o campo
         -> Exemplo:
-        * pattern="[]
+        * pattern="[".+seuemail\.com\.br"]
+
+    - list
+        -> o id de uma tag <datalist> que está no mesmo documento.
+        -> <datalist> irá conter uma lista de valores pré-definidos a fim de sugerir ao usuário, quais valores estão disponívels.
+            -> os valores de <datalist> que não são compatíveis com o campo, não serão apresentados como sugestão.
+
+    *input type="url"*
+
+    ### Atributos
+
+    - placeholder
+    - readonly / disabled
+    - value
+
+    - required
+    - minlength / maxlength
+    - size
+    - pattern
+        -> Exemplo:
+        * pattern=".*\.com\.br\/.*"
+    
+    - list
+    - spellcheck
+        -> habilitar a verificação ortográfica para este input
+
+    *input type="file"*
+
+    - usuário pode escolher 1 ou mais arquivos para enviar no forms
+
+    ### Atributos
+
+    - value
+    - accept
+        -> descreve que tipos de arquivos são aceitos
+        -> exemplo: .doc, .docx, .pdf, audio/*, image.png, .png
+    - files
+        -> lista de arquivos ou arquivo
+    - multiple
+        -> permite o envio de múltiplos arquivos
+
+    * envio dos arquivos
+        -> deve utilizar o método POST e o atributo <enctype> como "multipart/form-data"
+
+    *input type="color"*
+
+    ### Atributos
+
+    - value: RGB
+    - list
+
+    *input type="checkbox"*
+
+    - selecionar um valor para ser enviado
+
+    ### Atributos
+
+    - globais
+    - value
+    - checked
+        -> para deixar o campo marcado por padrão
+
+    "MARCAR MÚLTIPLOS VALORES"
+        -> Usa o atributo "name" com o mesmo nome para os diversos campos.
+
+    *input type="hidden"*
+
+    - invisível ao usuário
+    - será enviado com o forms
+    - não receberá foco
+    - leitores de tela não percebem este campo
+
+    *input type="radio"*
+
+    - projetado para selecionar uma única opção de um grupo
+
+    ### Atributos especiais
+
+    - checked
+    - value
+
+
+# Textarea
+
+- mais de uma linha
+- útil para textos grandes
+
+    ### Atributos
+
+    - id
+    - name
+    - rows e cols
+    - maxlength e minlength
+    - wrap
+    
+    - autocomplete, autofocus, readonly, form, required, disabled
+
+# Select
+
+- menu de opções
+
+    <option>
+    
+    ### Atributos necessários
+
+    - value
+
+    ### Atributos únicos
+
+    - multiple
+    - size
+
+    *input type="search"*
+
+    - campo de busca
+    
+    ### Atributos
+
+    - list / datalist
+    - pattern
+    - aria-label
+
+    *input type="number"*
+
+    ### Atributos 
+
+    - min / max
+    - step
+
+    *input type="range"*
+
+    - seleciona um valor numérico
+    - slider ou dial control
+
+    ### Atributos
+
+    - min / max
+    - step
