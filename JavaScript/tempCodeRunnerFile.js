@@ -1,10 +1,8 @@
-let person = {
-    name: 'Isabele',
-    age: 20,
-    weight: 50.5
-}
+const totalAuthors = booksByCategory.map((category) => {
+//     return category.books.map((book) => {
+//         return book.author;
+//     });
+// }
+// );
 
-for(let property in person){
-    console.log(property);
-    console.log(person[property]);
-}
+// console.log(totalAuthors);
