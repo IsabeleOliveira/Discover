@@ -48,7 +48,8 @@
     - parte inferior da página
     - costuma ter as redes sociais, autores do site
 
-<!-- <body>
+~~~
+<body>
     <header>
         logomarca
 
@@ -69,7 +70,8 @@
 
     <footer>rodapé</footer>
 
-</body> -->
+</body>
+~~~
 
 ### Header
 
@@ -87,7 +89,8 @@
 
 * Exemplo:
 
-<!-- <body>
+~~~
+<body>
 
     <main>
         <h1>Receitas</h1>
@@ -103,11 +106,13 @@
             <p>Essa é uma receita de torta de maçã</p>
         </article>
     </main>
-</body> -->
+</body>
+~~~
 
 * Exemplo de <article>
 
-<!-- <body>
+~~~
+<body>
 
     <main>
         <h1>Receitas</h1>
@@ -123,7 +128,8 @@
             <p>Essa é uma receita de torta de maçã</p>
         </article>
     </main>
-</body> -->
+</body>
+~~~
 
 ### Aside
 
@@ -132,7 +138,8 @@
 
 * Exemplo de <footer>
 
-<!-- <article>
+~~~
+<article>
     <h1>Sobre nós</h1>
     <p>Formamos um time de profissionais: </p>
 
@@ -158,7 +165,9 @@
 
 <footer>
     <p>© 2023 Isabele Oliveira</p>
-</footer> -->
+</footer>
+
+~~~
 
 ### Section
 
@@ -167,7 +176,8 @@
 
 * Exemplo:
 
-<!-- <main>
+~~~
+<main>
     <h1>Receita 1</h1>
     <p>descrição da receita</p>
 
@@ -175,5 +185,5 @@
         <h2> Modo de preparo</h2>
         <p>Modo de preparo</p>
     </section>
-</main> -->
-
+</main>
+~~~
