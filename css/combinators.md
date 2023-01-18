@@ -62,4 +62,25 @@ h1 + p{
 
 ## General sibling combinator
 
-* identificado pelo sinal (-) entre dois elementos 
+* identificado pelo sinal (-) entre dois seletores
+* selecione todos os elementos
+
+```html
+<h1>
+    titulo
+</h1>
+<p>
+    Esse é o parágrafo
+</p>
+<p>
+    mais um parágrafo
+</p>
+```
+
+```css
+
+    h1 - p {
+        color: red;
+    }
+
+```
