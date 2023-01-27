@@ -1,0 +1,73 @@
+# Layouts
+
+## Normal flow
+
+Os elementos `block` e `inline` ficam
+posicionados na página, a maneira.
+
+```html
+<p> Texto block com <strong>inline</strong> dentro </p>
+```
+
+## Tables
+
+Maneira de tabelas onde a tag `table`recebe um display `table` fazendo com que os elementos internos como `id` e `if` possam ser usados para montar uma tabela 
+
+```html
+<table>
+    <tr>
+        <td>Hora</td>
+        <td>10:02</td>
+    </tr>
+    <tr>
+        <td>Hora</td>
+        <td>23:00</td>
+    </tr>
+</table>
+```
+
+## Tabless
+
+Uso das propriedades `float`, `clear` para que os elementos possam mudar de posição na tela.
+
+```html
+<div style="float: left">
+    esquerda
+</div>
+
+<div style="float: right">
+    direta
+</div>
+
+<div style="clear: both">
+    normal
+</div>
+
+```
+
+## Flexbox
+
+A caixa se torna flex, fazendo com que os elementos internos possam receber melhor: 
+
+- Alinhamento
+- Ordenação
+- Tamanhos flexíveis
+
+```html
+<div class="flexbox">
+    <div class="item A">A</div>
+    <div class="item B">B</div>
+    <div class="item C">C</div>
+</div>
+```
+
+```css
+.flexbox{
+    display: flex;
+    flex-direction: column
+}
+
+.item:nth-child(1){
+    order: 1;
+}
+
